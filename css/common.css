@@ -1,0 +1,179 @@
+header, section {
+    width: 100%;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+
+.sec_pad {
+    max-width: 1420px;
+    background-color: aquamarine;
+}
+
+.box {
+    width: 200px;
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1.5px solid #fff;
+    color: #fff;
+    padding: 15px;
+}
+
+.box:hover {
+    background-color: #fff;
+    color: #333333;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sec_2_box {
+    color: #4d4d4d;
+    border: 1.5px solid #ABABAB;
+    text-align: center;
+}
+
+.sec_2_box:hover {
+    background-color: #202020;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+.sec_title {
+    font-size: 34px;
+    color: #fff;
+}
+
+.sec_product_title {
+    font-size: 46px;
+    color: #333333;
+}
+
+.sec_product_title_2 {
+    font-size: 26px;
+}
+
+.sec_product_text {
+    font-size: 18px;
+    color: #333333;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------1420--------------------------------------------- */
+
+@media all and (max-width: 1420px) {
+
+    .sec_product_title {
+        font-size: 32px;
+        color: #333333;
+    }
+
+    .sec_product_title_2 {
+        font-size: 24px;
+    }
+
+    .sec_product_text {
+        font-size: 18px;
+        color: #333333;
+        line-height: 26px;
+    }
+
+
+}
+
+
+
+
+
+/* ----------------------------------1180--------------------------------------------- */
+
+@media all and (max-width: 1180px) {
+
+
+    .box {
+        width: 170px;
+        margin-top: 18px;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .sec_title {
+        font-size: 24px;
+    }
+
+    .sec_product_title {
+        font-size: 30px;
+        color: #333333;
+    }
+
+    .sec_product_title_2 {
+        font-size: 22px;
+    }
+
+    .sec_product_text {
+        font-size: 18px;
+        color: #333333;
+        line-height: 26px;
+    }
+
+
+}
+
+
+
+/* ----------------------------------700--------------------------------------------- */
+
+@media all and (max-width: 700px) {
+
+    .header_icon>a:nth-child(2) {
+        display: none;
+    }
+
+    /* --------------------header----------------- */
+
+    .pc_con {
+        display: none;
+    }
+
+    .mo_con {
+        display: block;
+    }
+    
+    .box {
+        width: 160px;
+        margin-top: 18px;
+        font-size: 14px;
+        padding: 15px;
+    }
+    
+    .sec_product_text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+
+}
+
+
